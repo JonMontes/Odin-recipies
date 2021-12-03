@@ -1,6 +1,6 @@
 body {
     
-    font-family:'Didot' sans-serif;
+    font-family:'serif';
     background-color: blanchedalmond;
 }
 
@@ -12,23 +12,52 @@ h1 {
     border: 8px solid burlywood;
     margin: 50px 100px 25px 100px;
     padding: 30px;
+    border-radius: 25px;
+    font-size: 40px;
 }
 
 ol {
     font-size: 20px;
-    padding: 8px;
+    
 }
 
 div{
     text-align: center;
+    padding: 5px;
 }
 
 main {
     border-radius: 25px;
     border: 5px;
     background-color: rgb(253, 218, 173);
-}
-h2 {
-    padding: 15px;
+    padding: 8px;
+    margin: 10px;
 }
 
+li {
+    display: list-item;
+    font-size: 25px;
+    display: list-item;
+    list-style-position: inside;
+    padding: 20px;
+    margin-left: 20px;
+
+}
+
+
+ul {
+    font-size: 20px;
+    padding: 8px;
+}
+
+p{
+    font-size: 25px;
+}
+
+h3 {
+    margin-left: 10px;
+    font-size: 25px;
+}
+button {
+    font-size: 25px;
+}
